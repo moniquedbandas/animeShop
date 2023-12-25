@@ -2,6 +2,9 @@ body {
   background-color: rgb(255, 255, 255);
   font-family: "Nunito", sans-serif;
   margin: 0;
+  background: url("../images/animebackground.jpg");
+  background-size: cover;
+  
 }
 
 .header-top {
@@ -12,7 +15,7 @@ body {
 #btn-pesquisar {
   position: absolute;
   left: 20rem;
-  top: 77px;
+  top: 80px;
   /* width: 300px; */
   /* height: 30px; */
   border: none;
@@ -27,10 +30,9 @@ body {
   width: 250px;
   margin-left: 14px;
 }
-
 #btn-login {
   position: absolute;
-  right: 20rem;
+  right: 26rem;
   top: 70px;
   width: 40px;
   height: 40px;
@@ -44,6 +46,16 @@ body {
   opacity: 0.6;
 }
 
+.banner-adv{
+  text-align: center;
+  margin-top: 20px;
+}
+.promo{
+  opacity: 0.7;
+}
+.container-head{  
+  overflow: hidden;
+}
 .container-principal {
   margin: 30px 400px; /*top, right, bottom, left*/
   padding: 30px;
@@ -58,18 +70,20 @@ body {
 }
 
 .card {
-  /* margin: 10px; */
+  /* margin: 0px; */
+  border: 1px solid;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(245, 245, 220, 0.603);
   text-align: center;
   cursor: pointer;
 }
 .titulo-produto{
-  margin-top: 30px;
+  margin-top: 40px;
 }
 img.thumbnail {
   /* display: block; */
   cursor: pointer;
-  border: 0.1px solid;
-  border-color: #594f69;
   border-radius: 50%;
 }
 .thumbnail:hover {
