@@ -4,9 +4,17 @@ body {
   margin: 0;
   background: url("../images/animebackground.jpg");
   background-size: cover;
-  
 }
-
+.logo-loja {
+  position: absolute;
+  top: 78px;
+  left: 42rem;
+  width: 30px;
+  height: 30px;
+  background: url("../images/fofa.png") top left;
+  background-size: cover;
+  z-index: 1000;
+}
 .header-top {
   background-color: #b089f0;
   padding: 50px;
@@ -30,8 +38,8 @@ body {
 }
 #btn-login {
   position: absolute;
-  right: 26rem;
-  top: 70px;
+  right: 28rem;
+  top: 78px;
   width: 40px;
   height: 40px;
   border: none;
@@ -46,14 +54,14 @@ body {
   color: blue;
 }
 
-.banner-adv{
+.banner-adv {
   text-align: center;
   margin-top: 20px;
 }
-.promo{
+.promo {
   opacity: 0.9;
 }
-.container-head{  
+.container-head {
   overflow: hidden;
 }
 .container-principal {
@@ -61,6 +69,8 @@ body {
   padding: 30px;
   border: 1px solid;
   border-color: #b6b3f2;
+  border-radius: 20px;
+  background-color: rgba(240, 248, 255, 0.541);
 }
 .container-cards {
   display: flex;
@@ -80,8 +90,16 @@ body {
   text-align: center;
   cursor: pointer;
 }
-.titulo-produto{
+.titulo-produto {
   margin-top: 40px;
+}
+.link-paginicial:link,
+.link-paginicial:visited {
+  color: black;
+  text-decoration: none;
+}
+.link-paginicial:hover {
+  text-decoration: underline;
 }
 img.thumbnail {
   margin-top: 20px;
