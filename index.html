@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <link rel="stylesheet" href="src/css/estilos.css">
     <title>Mikesa's Shop</title>
 </head>
@@ -15,13 +16,14 @@
         <a href="index.html">
             <div class="logo-loja"></div>
         </a>
-        <h1 class="titulo-loja">Welcome to Mikesa's Shop!</h1>
+        <h1 class="titulo-loja">Mikesa's Shop!</h1>
         <div id="btn-pesquisar">
             <i class="fas fa-search" style="font-size: 20px;"></i>
-            <!-- <span class="campo-pesquisa">Digite aqui o que procura s2</span> -->
             <input type="text" id="campo-pesquisa" placeholder="Digite aqui o que procura">
         </div>
-        <button id="btn-login"><i class="fas fa-user" style="font-size:20px"></button></i>
+        <button id="btn-login">
+            <i class="fas fa-user" style="font-size:20px">
+        </button></i>
     </div>
     <div class="banner-adv">
         <img src="src/images/bannerpromo.jpg" class="promo" alt="promocao">
@@ -57,17 +59,17 @@
         </div>
     </div>
 
-
+    <div id="js-heightControl" style="height: 0;">&nbsp;</div>
     <footer id="footer">
         <div class="footer-info">
             <ul class="lista-info">
                 <li class="info-redes">
-                    <a href="https:/www.facebook.com/monique.bandas/">
+                    <a href="https:/www.facebook.com/monique.bandas/" target="_blank">
                         <i class="fab fa-facebook" style="font-size: 20px; color: blue;"></i>
                     </a>
                 </li>
                 <li class="info-redes">
-                    <a href="https:/www.instagram.com/moniquebandas/">
+                    <a href="https:/www.instagram.com/moniquebandas/" target="_blank">
                         <i class="fab fa-instagram" style="font-size: 20px; color: violet;"></i>
                     </a>
                 </li>
@@ -88,8 +90,8 @@
         <div class="footer-copyright">
             <b>&copy;2023 Mikesa's Shop. All rights reserved</b>
         </div>
-
     </footer>
+    <script src="/src/js/script.js"></script>
 </body>
 
 </html>
